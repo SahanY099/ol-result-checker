@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ol-result-checker"
+version = "0.1.0"
+description = ""
+authors = ["Sahan Yashmika <88578622+SahanY099@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "ol_result_checker"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+playsound = {git = "https://github.com/killjoy1221/playsound.git"}
+selenium = "^4.15.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
